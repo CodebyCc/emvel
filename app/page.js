@@ -11,7 +11,7 @@ export default function Home() {
           <span className="text-green-400"> Emvel Royal Company</span>
         </h1>
         <p className="text-2xl leading-relaxed font-bold mb-6">
-          Your No1 Stop for qualtiy and affordable Healthcare,Skincare and
+          Your No1 Stop for quality and affordable Healthcare,Skincare and
           Haircare Products
           <span className="text-green-400"> 𝐓𝐇𝐄 𝐍𝐄𝐗𝐓𝐠𝐞𝐧 𝐁𝐔𝐈𝐋𝐃𝐄𝐑𝐒</span>
         </p>

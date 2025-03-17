@@ -6,7 +6,7 @@ import { MdMenu, MdClose, MdHome } from "react-icons/md";
 import home1 from "../../public/emvy.png";
 
 const Nav = () => {
-  const [nav, setNav] = useState(true);
+  const [nav, setNav] = useState(false);
 
   const handleClick = () => {
     setNav(!nav);
@@ -15,23 +15,21 @@ const Nav = () => {
   return (
     <nav className="flex justify-between relative  md:h-10 md:items-center font-bold">
       <div
-        onClick={() => setNav(false)}
+        onClick={() => setNav(true)}
         className="z-50 cursor-pointer text-3xl ml-2"
       >
         <Link href="/">
-          {/* <MdHome /> */}
           <Image src={home1} alt="Logo of Emvel" width={60} height={50} />
-          {/* <Image height="60" width="60" src="/icon.png" alt="logo" /> */}
         </Link>
       </div>
       <div
         onClick={handleClick}
-        className="flex cursor-pointer z-50 md:hidden text-3xl mr-3  ease-in duration-500 "
+        className="flex cursor-pointer z-50 md:hidden text-3xl mr-3 mt-2"
       >
         {nav ? <MdClose /> : <MdMenu />}
       </div>
       <ul className=" hidden md:flex md:justify-center ">
-        <li className=" mr-2 text-zinc-600 hover:text-green-600   ">
+        <li className=" mr-2 text-zinc-600 hover:text-green-600">
           <Link href="/products">Products</Link>
         </li>
 
@@ -42,16 +40,16 @@ const Nav = () => {
       {nav && (
         <div className=" bg-white h-screen text-center w-screen block ease-in duration-500 fixed md:hidden ">
           <ul className="mt-64" onClick={handleClick}>
-            <li className="mb-2 border-t border-b text-zinc-600 hover:text-green-600 transition-colors border-ro ">
+            <li className="mb-2 border-t border-b text-zinc-800 hover:text-green-600 ">
               <Link href="/">Home</Link>
             </li>
-            <li className="mb-2 border-t border-b text-zinc-600 hover:text-zinc-800 transition-colors ">
+            <li className="mb-2 border-t border-b text-zinc-800  hover:text-green-600">
               <Link href="/products">Products</Link>
             </li>
             {/* <li className="mb-2  border-b text-zinc-600 hover:text-zinc-800 transition-colors ">
               <Link href="/contact">Contact Us</Link>
             </li> */}
-            <li className="mb-2  border-b text-zinc-600 hover:text-zinc-800 transition-colors ">
+            <li className="mb-2  border-b text-zinc-800  hover:text-green-600">
               <Link href="/about">About Us</Link>
             </li>
           </ul>

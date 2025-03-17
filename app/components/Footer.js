@@ -41,35 +41,6 @@ function Footer() {
             </li>
           </ul>
         </div>
-
-        {/* Column 3 - Services */}
-        {/* <div>
-          <h3 className="text-lg font-semibold">Our Services</h3>
-          <ul className="mt-2 space-y-2">
-            <li>
-              <Link href="#" className="text-gray-400 hover:text-white">
-                Web Development
-              </Link>
-            </li>
-            <li>
-              <Link href="#" className="text-gray-400 hover:text-white">
-                UI/UX Design
-              </Link>
-            </li>
-            <li>
-              <Link href="#" className="text-gray-400 hover:text-white">
-                SEO Optimization
-              </Link>
-            </li>
-            <li>
-              <Link href="#" className="text-gray-400 hover:text-white">
-                E-commerce
-              </Link>
-            </li>
-          </ul>
-        </div> */}
-
-        {/* Column 4 - Contact */}
         <div>
           <h3 className="text-lg font-semibold">Contact Us</h3>
           <p className="text-gray-400 mt-2">Email : emvel88@gmail.com</p>
@@ -77,13 +48,7 @@ function Footer() {
         </div>
       </div>
 
-      {/* Copyright */}
-      <div className="text-center text-gray-500 mt-8 mb-2 text-sm">
-        &copy; {new Date().getFullYear()} Emvel Royal Ghana. All rights
-        reserved.
-      </div>
-
-      <div className=" flex justify-center ">
+      <div className=" flex justify-center mt-6">
         <div className="flex ">
           <Link
             className="px-2"
@@ -113,6 +78,11 @@ function Footer() {
             <FaTiktok size={30} spacing={40} />
           </Link>
         </div>
+      </div>
+      {/* Copyright */}
+      <div className="text-center text-gray-500 mt-2 text-sm">
+        &copy; {new Date().getFullYear()} Emvel Royal Ghana. All rights
+        reserved.
       </div>
     </footer>
   );
