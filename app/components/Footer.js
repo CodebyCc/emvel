@@ -15,9 +15,7 @@ function Footer() {
         {/* Column 1 - Brand */}
         <div>
           <h2 className="text-xl font-bold">Emvel Royal Products</h2>
-          <p className="text-gray-400 mt-2 text-green-400">
-            THE BEST HEALTHCARE.
-          </p>
+          <p className=" font-bold mt-2 text-green-400">THE BEST HEALTHCARE.</p>
         </div>
 
         {/* Column 2 - Links */}
