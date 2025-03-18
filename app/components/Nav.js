@@ -42,7 +42,7 @@ const Nav = () => {
             <li className="mb-2 border-b text-zinc-800 hover:text-green-600 ">
               <Link href="/">Home</Link>
             </li>
-            <li className="mb-2 border-b- text-zinc-800  hover:text-green-600">
+            <li className="mb-2 border-b text-zinc-800  hover:text-green-600">
               <Link href="/products">Products</Link>
             </li>
             {/* <li className="mb-2  border-b text-zinc-600 hover:text-zinc-800 transition-colors ">
