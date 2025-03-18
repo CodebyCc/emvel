@@ -13,7 +13,7 @@ export default function Home() {
         <p className="text-2xl leading-relaxed font-bold mb-6">
           Your No1 Stop for quality and affordable Healthcare,Skincare and
           Haircare Products
-          <span className="text-green-400"> 𝐓𝐇𝐄 𝐍𝐄𝐗𝐓𝐠𝐞𝐧 𝐁𝐔𝐈𝐋𝐃𝐄𝐑𝐒</span>
+          <span className="text-green-400"> 𝐓𝐇𝐄 BEST HEALTHCARE</span>
         </p>
         <Buttons />
       </div>
