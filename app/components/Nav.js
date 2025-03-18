@@ -15,7 +15,7 @@ const Nav = () => {
   return (
     <nav className="flex justify-between relative  md:h-10 md:items-center font-bold">
       <div
-        onClick={() => setNav(true)}
+        onClick={() => setNav(false)}
         className="z-50 cursor-pointer text-3xl ml-2"
       >
         <Link href="/">
