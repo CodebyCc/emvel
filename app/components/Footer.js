@@ -62,12 +62,12 @@ function Footer() {
           >
             <FaFacebook size={30} spacing={40} />
           </Link>
-          <Link className="px-2" href="">
+          {/* <Link className="px-2" href="">
             <FaTwitter size={30} spacing={40} />
-          </Link>
-          <Link className="px-2" href="/">
+          </Link> */}
+          {/* <Link className="px-2" href="/">
             <FaSnapchat size={30} spacing={40} />
-          </Link>
+          </Link> */}
           <Link
             className="px-2"
             href="https://www.tiktok.com/@emvel_royal?_t=ZS-8ukqTVyQySA&_r=1"
