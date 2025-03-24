@@ -8,7 +8,7 @@ export default function Home() {
           Welcome to
           <span className="text-green-400"> Emvel Royal Company</span>
         </h1>
-        <p className="text-2xl leading-relaxed font-bold mb-6">
+        <p className="text-2xl leading-relaxed mb-6">
           Your No1 Stop for quality and affordable Healthcare,Skincare and
           Haircare Products
           <span className="text-green-400"> 𝐓𝐇𝐄 BEST HEALTHCARE</span>
