@@ -37,7 +37,7 @@ const Nav = () => {
         </li>
       </ul>
       {nav && (
-        <div className=" animate-slideUp bg-white h-screen text-center w-screen block ease-in duration-500 fixed md:hidden ">
+        <div className="motion-preset-slide-left-lg bg-white h-screen text-center w-screen block ease-in duration-500 fixed md:hidden ">
           <ul className="mt-64" onClick={handleClick}>
             <li className="mb-2 border-b text-zinc-800 hover:text-green-600 ">
               <Link href="/">Home</Link>
